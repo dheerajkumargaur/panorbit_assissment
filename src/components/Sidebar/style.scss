@@ -1,0 +1,46 @@
+.sidebarContainer {
+    width: 250px;
+    margin: 2.5rem 3rem;
+    height: calc(100% - 3rem);
+    background-image: linear-gradient(0deg, #4b06b9, #2b52e0);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .sidebarItem {
+      padding: 0 2.5rem;
+      color: #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        color: #eee;
+      }
+      &.active {
+        color: #fff;
+        font-weight: 600;
+      }
+      .itemTitle {
+        padding: 1.2rem 0;
+        border-bottom: 1px solid #fff5;
+        flex: 1;
+      }
+      .activeIcon {
+        border-radius: 100px 0 0 100px;
+        background-color: #f9f9f9;
+        color: #666;
+        position: absolute;
+        right: 0;
+        padding: 0.7rem 0.5rem;
+        font-size: 1.2rem;
+      }
+      &:last-of-type {
+        .itemTitle {
+          border: none;
+        }
+      }
+    }
+  }

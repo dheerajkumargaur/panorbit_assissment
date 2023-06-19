@@ -1,0 +1,21 @@
+.pageHeaderContainer {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    border: white;
+    background-color: #f9f9f9;
+    box-shadow: none;
+    border-radius: 3rem;
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+    border-radius: 3rem;
+}
